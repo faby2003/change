@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    width: 70%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.788);
+    color: white;
+    margin-top: 20px;
+}
+tr{
+    height: 10px;
+}
+th{
+    height: 10px;
+    text-align: center;
+}
+td{
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+td:hover{
+    background-color: white;
+    color: black;
+}
+td a{
+    color: blue;
+    text-decoration: none;
+}
+td a:hover{
+    color: black;
+}

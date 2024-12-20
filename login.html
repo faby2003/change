@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Watch Store</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>WS</h2>
+            <div class="nav-links">
+                <a href="home.html">Home</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="login-main">
+        <div class="login-container">
+            <form action="login.php" class="login-form" method="post">
+                <h1>Welcome to Watch Store</h1>
+                <div class="input-group">
+                    <input class="login-input" type="email" name="email" placeholder="Enter Your Email" required>
+                </div>
+                <div class="input-group">
+                    <input class="login-input" type="password" name="password" placeholder="Enter Password" required>
+                </div>
+                <input class="login-button" type="submit" name="submit" value="Login">
+                <p>Don’t have an account? <a class="signup-link" href="register.php">Sign up</a></p> 
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Watch Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>

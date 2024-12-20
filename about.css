@@ -1,0 +1,77 @@
+/* General Page Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    /* padding: 15px; */
+}
+
+.logo h1 {
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+
+/* About Section */
+.about-section {
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.about-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #666;
+    text-align: justify;
+}
+
+.about-container h3 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    /* color: #007bff; */
+}
+
+.about-container ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.about-container ul li {
+    font-size: 1.2rem;
+    padding:
+}
